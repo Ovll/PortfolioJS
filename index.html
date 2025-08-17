@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simcha Bryzgalov - CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <img src="./img-profile-photo.jpeg" alt="Simcha Bryzgalov Profile Photo" class="profile-photo" />
+        <h1 class="name">Simcha Bryzgalov</h1>
+        <p class="title">Software Engineer</p>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="about-section card">
+        <h2>About programming</h2>
+        <p>"If debugging is the process of removing software bugs, then programming must be the process of putting them in."</p>
+        <p class="quote-author">— Edsger W. Dijkstra</p>
+      </section>
+
+      <section class="education-section card">
+        <h2>Education</h2>
+        <div class="education-details">
+          <p><strong>Ruppin Technological College</strong></p>
+          <p>Software Engineering FullStack</p>
+        </div>
+
+        <h2>Certifications</h2>
+        <div class="certifications">
+          <ul>
+            <li>
+              <strong>CCNA: Introduction to Networks</strong><br /><br />
+              Cisco<br />
+              Issued Aug 2025
+            </li>
+            <li>
+              <strong>AWS Certified Cloud Practitioner</strong><br /><br />
+              Amazon Web Services (AWS)<br />
+              Issued Sep 2023 · Expires Sep 2026<br />
+              Credential ID Q33J6N3CWJBEQ03K
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="skills-section card">
+        <h2>Skills</h2>
+        <ul>
+          <li>Dependency Injection</li>
+          <li>ASP.NET MVC</li>
+          <li>JavaScript</li>
+          <li>CSS</li>
+          <li>SQL Server</li>
+          <li>Linux</li>
+          <li>AWS</li>
+          <li>CCNA</li>
+        </ul>
+      </section>
+
+      <section class="links-section card">
+        <h2>Links</h2>
+        <div class="link-buttons">
+          <a href="https://www.linkedin.com/in/simcha-bryzgalov-5b8090198/" target="_blank" class="link-button linkedin">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/Ovll" target="_blank" class="link-button github"> <i class="fab fa-github"></i> GitHub </a>
+        </div>
+      </section>
+
+      <section class="projects-section card">
+        <h2>My GitHub Projects</h2>
+        <div id="github-projects-container" class="projects-grid">
+          <p>Loading projects...</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Simcha Bryzgalov. All rights reserved.</p>
+    </footer>
+
+    <script src="apiService.js" type="module"></script>
+    <script src="uiManager.js" type="module"></script>
+  </body>
+</html>
